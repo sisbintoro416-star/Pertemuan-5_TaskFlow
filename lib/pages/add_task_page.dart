@@ -298,7 +298,7 @@ class _AddTaskPageState extends State<AddTaskPage> {
                       ),
                       const SizedBox(height: 8),
                       DropdownButtonFormField<String>(
-                        initialValue: _selectedCategory,
+                        value: _selectedCategory,
                         items: _categories.map((category) {
                           return DropdownMenuItem<String>(
                             value: category,

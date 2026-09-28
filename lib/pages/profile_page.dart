@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mobileproject/auth/login_page.dart';
-import 'package:mobileproject/pages/home_page.dart';
-import 'package:mobileproject/pages/task_list_page.dart';
+import 'package:taskflow/auth/login_page.dart';
+import 'package:taskflow/pages/home_page.dart';
+import 'package:taskflow/pages/task_list_page.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -112,7 +112,7 @@ class _ProfilePageState extends State<ProfilePage> {
           ),
           const SizedBox(height: 12),
           const Text(
-            'Muthia Sangadji',
+            'Bintoro Amansyah',
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.w700,
@@ -121,7 +121,7 @@ class _ProfilePageState extends State<ProfilePage> {
           ),
           const SizedBox(height: 4),
           Text(
-            'includemuthesa@unkhair.ac.id',
+            'sisbintoro@unkhair.ac.id',
             style: TextStyle(
               fontSize: 13,
               fontWeight: FontWeight.w400,

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mobileproject/pages/profile_page.dart';
-import 'package:mobileproject/pages/task_detail_page.dart';
-import 'package:mobileproject/pages/task_list_page.dart';
+import 'package:taskflow/pages/profile_page.dart';
+import 'package:taskflow/pages/task_detail_page.dart';
+import 'package:taskflow/pages/task_list_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -112,7 +112,7 @@ class _HomePageState extends State<HomePage> {
             Row(
               children: const [
                 Text(
-                  'Hello, Muthesaa',
+                  'Hello, Abin',
                   style: TextStyle(
                     fontSize: 22,
                     fontWeight: FontWeight.w700,

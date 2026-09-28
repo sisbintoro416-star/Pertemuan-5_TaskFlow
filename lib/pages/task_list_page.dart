@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mobileproject/pages/add_task_page.dart';
-import 'package:mobileproject/pages/profile_page.dart';
-import 'package:mobileproject/pages/task_detail_page.dart';
+import 'package:taskflow/pages/add_task_page.dart';
+import 'package:taskflow/pages/profile_page.dart';
+import 'package:taskflow/pages/task_detail_page.dart';
 
 class TaskListPage extends StatefulWidget {
   const TaskListPage({super.key});

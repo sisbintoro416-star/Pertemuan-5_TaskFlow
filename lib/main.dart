@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobileproject/widgets/flash_screen.dart';
+import 'package:taskflow/widgets/flash_screen.dart';
 
 void main() {
   runApp(const MainApp());

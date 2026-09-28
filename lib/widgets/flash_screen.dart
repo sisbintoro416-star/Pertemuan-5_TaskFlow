@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'package:mobileproject/auth/login_page.dart';
+import 'package:taskflow/auth/login_page.dart';
 
 class Flshscreen extends StatefulWidget {
   const Flshscreen({super.key});
